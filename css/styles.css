@@ -171,3 +171,22 @@ body.art {
   border-color: rgb(156, 48, 48);
   border-width: 45px;
 }
+
+#artwall {
+  border: solid coral;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  background-color: darkcyan;
+  font-size: xx-large;
+  text-emphasis: bold;
+}
+
+p.blurb {
+  float:right
+}
+
+.card {
+  box-shadow: 0 6px 8px 0 rgba(11, 13, 26, 0.2);
+  transition: 0.2s;
+
