@@ -35,6 +35,8 @@ div.col-10 {
   font-size: xx-large;
 }
 
+
+
 #welcome {
   background-color: rgb(10, 24, 59);
   display: inline;
@@ -135,7 +137,37 @@ img#round {
   display: block;
 }
 
-body {
- background-image: url('img/2-forest.jpg');
- background-size: cover;
+body.art {
+  background-image: url("../img/zigzag.png");
+  background-size: cover;
+}
+
+
+.container {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  border: solid;
+  border-color: lightcoral;
+  border-width: 15px;
+}
+
+#outside {
+  background-color: bisque;
+  border: solid;
+  border-color: coral;
+  border-width: 25px;
+}
+
+#outoutside {
+  background-color: bisque;
+  border: solid;
+  border-color: rgb(231, 88, 70);
+  border-width: 35px;
+}
+
+#outoutoutside {
+  background-color: rgb(218, 190, 156);
+  border: solid;
+  border-color: rgb(156, 48, 48);
+  border-width: 45px;
 }
