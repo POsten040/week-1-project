@@ -12,13 +12,22 @@ body {
   overflow: scroll;
 }
 
+div.about {
+  
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border: solid cadetblue;
+  border-width: 15px;
+  padding: 10px;
+  
+}
+
 .center {
   text-align: center;
   padding: 10px;
 }
 
 div.col-10 {
-  background-color: rgb(80, 48, 149);
   height: 150px;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -26,8 +35,25 @@ div.col-10 {
   font-size: xx-large;
 }
 
+#welcome {
+  background-color: rgb(10, 24, 59);
+  display: inline;
+}
+
+#about {
+  background-color: rgb(63, 62, 138);
+}
+
+a {
+  transition: 2s;
+}
+
+a:hover {
+  width: 200px;
+}
+
 #art {
-  background-color: rgb(148, 88, 167);
+  background-color: rgb(143, 88, 129);
 }
 
 #ed {
@@ -88,14 +114,28 @@ div.item {
   color: rgb(231, 231, 231);
 }
 
-img {
+#self {
+  height: 250px;
+  width: 250px;
+  float: right;
+}
+
+img#round {
+  border-radius: 50%;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+}
 
+.right {
+  float: right;
+}
 }
 
 .caption {
   display: block;
+}
 
+body {
+ background-image: url('img/2-forest.jpg');
+ background-size: cover;
 }
