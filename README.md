@@ -12,7 +12,8 @@ The website has five pages as of now and links to two external pages of other pr
 
 The site is hosted at POsten040.github.io/week-1-project/index.html, and should require no installation. 
 
-#### There are no known bugs at this time, although one page is intentionally left blank.
+#### Known Bugs
+-void.html link is broken, should lead to blank page but seems not to load
 
 ## Support and contact details
 
