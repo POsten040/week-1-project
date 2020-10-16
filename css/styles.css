@@ -1,0 +1,18 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  border: 4px;
+  background-color: rgb(197, 236, 225);
+  float: left;
+  margin-top: 30%;
+  padding: 15px;
+  position: sticky;
+}
+
+.list-title {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(80, 61, 98);
+}
