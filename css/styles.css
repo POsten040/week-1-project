@@ -1,13 +1,32 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(238, 236, 232);
+}
+
+.center {
+  text-align: center;
+  padding: 10px;
 }
 
 .sidebar {
-  border: 4px;
-  background-color: rgb(197, 236, 225);
-  float: left;
-  margin-top: 30%;
-  padding: 15px;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: cornflowerblue;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#roundpic {
+  border-radius: 50%;
+  float: right;
+  padding: 20px;
+}
+
+.top {
   position: sticky;
 }
 
