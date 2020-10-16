@@ -35,8 +35,6 @@ div.col-10 {
   font-size: xx-large;
 }
 
-
-
 #welcome {
   background-color: rgb(10, 24, 59);
   display: inline;
@@ -126,7 +124,6 @@ img#round {
 
 .right {
   float: right;
-}
 }
 
 .caption {
