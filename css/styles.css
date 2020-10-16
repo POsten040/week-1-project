@@ -3,9 +3,44 @@ body {
   background-color: rgb(238, 236, 232);
 }
 
+div.header {
+  height: 150px;
+  background-color: rgb(39, 79, 144);
+}
+
 .center {
   text-align: center;
   padding: 10px;
+}
+
+div.col-10 {
+  background-color: blue;
+  height: 150px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#art {
+  background-color: rgb(119, 0, 255);
+}
+
+#ed {
+  background-color: rgb(205, 43, 226);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(206, 114, 114);
+  font-weight: bolder;
+}
+
+.thumb {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  border-radius: 30%;
 }
 
 .sidebar {
@@ -15,23 +50,43 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: cornflowerblue;
+  background-color: rgb(37, 56, 90);
   overflow: hidden;
   padding: 20px;
 }
 
 #roundpic {
+  display: block;
   border-radius: 50%;
   float: right;
-  padding: 20px;
+  padding: 15px;
+  margin-left: 10%;
 }
 
-.top {
-  position: sticky;
+.whitet {
+  color: aliceblue;
+  font-weight: 700;
 }
 
-.list-title {
-  font-weight: bold;
+
+
+div.item {
+  vertical-align: top;
   text-align: center;
-  color: rgb(80, 61, 98);
+  float: right;
+  padding: 20px;
+  border: aquamarine;
+  border-width: 50px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.caption {
+  display: block;
+
 }
