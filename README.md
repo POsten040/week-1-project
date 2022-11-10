@@ -43,8 +43,7 @@ The website has five pages as of now and links to two external github pages of o
 
 ## Support and contact details
 
-Feel free to reach me through email with any comments:
-*Patrickosten040@gmail.com*
+I help those who help themselves
 
 ## Technologies Used
 
